@@ -23,7 +23,6 @@
 - has_many : messages
 - has_many : users, through: :group_members
 - has_many : group_members
-- has_many : users, through: :group_members
 
 ## group_membersテーブル
 |Column|Type|Options|
