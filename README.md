@@ -27,8 +27,8 @@
 ## group_membersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|group_id|integer|foreign_key: true|
-|user_id|integer|foreign_key: true|
+|group_id|references|foreign_key: true, null: false|
+|user_id|references|foreign_key: true, null: false|
 
 ### Association
 - belongs_to :groups
@@ -41,8 +41,8 @@
 |body|text||
 |image|string||
 |time_stamp|||
-|group_id|integer|foreign_key: true|
-|user_id|integer|foreign_key: true|
+|group_id|references|foreign_key: true, null: false|
+|user_id|references|foreign_key: true, null: false|
 
 ### Association
 - belongs_to :group
