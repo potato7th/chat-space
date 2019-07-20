@@ -1,0 +1,11 @@
+.header {
+  height: 20px;
+  width: 100%;
+  background-color: #38AEF0;
+  position: fixed;
+  &__text {
+    color: white;
+    text-align: center;
+    line-height: 20px;
+  }
+}
