@@ -31,8 +31,8 @@
 |user_id|references|foreign_key: true, null: false|
 
 ### Association
-- belongs_to :groups
-- belongs_to :users
+- belongs_to :group
+- belongs_to :user
 
 
 ## messagesテーブル
