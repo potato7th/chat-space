@@ -40,7 +40,6 @@
 |------|----|-------|
 |body|text||
 |image|string||
-|time_stamp|||
 |group_id|references|foreign_key: true, null: false|
 |user_id|references|foreign_key: true, null: false|
 
